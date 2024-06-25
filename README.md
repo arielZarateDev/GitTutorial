@@ -8,4 +8,4 @@ Este es un repositorio que sirve de introduccion a git
 - git init (iniciar git)
 - git status
 - git add . (agregar elementos al stagin area)
--
+- git commit -m "primer commit"
