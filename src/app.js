@@ -11,7 +11,7 @@ app.use(morgan("dev")); //morgan
 
 app.get("/", (req, res) => {
   res.json({
-    message: "Welcome al tutorial de Git 😜",
+    message: "Welcome al tutorial de Git ",
   });
 });
 
