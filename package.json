@@ -1,0 +1,19 @@
+{
+  "name": "server_express",
+  "version": "1.0.0",
+  "description": "Este es un repositorio que sirve de introduccion a git ![git](public/images/git.png)",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "keywords": [],
+  "author": "Ariel zArate",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
