@@ -18,4 +18,4 @@ Este es un repositorio que sirve de introduccion a git
 
 ### Clonando el repositorio remoto a local
 
-- git clone
+- git clone https://github.com/arielZarateDev/GitTutorial.git
