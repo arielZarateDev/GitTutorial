@@ -68,6 +68,32 @@ El comando git log en Git es una herramienta poderosa para revisar el historial 
 
 - `git fetch origin ariel` #Descarga cambios desde un repositorio remoto sin fusionarlos.
 
+### ¿Cuándo usar git merge?
+
+El comando git merge se utiliza para combinar cambios de diferentes ramas dentro de tu repositorio local.
+
+- git merge nombre-de-la-rama-fuente
+
+### ¿Cuándo usar git pull?
+
+El comando git pull se utiliza para actualizar tu repositorio local con los cambios del repositorio remoto. Este comando combina git fetch (descargar los cambios del remoto) y git merge (fusionar esos cambios en tu rama actual).
+
+Casos de uso:
+
+- Actualizar tu rama local con cambios de la misma rama remota:
+
+```bash
+git pull origin nombre-de-tu-rama
+
+```
+
+- Traer cambios de otra rama remota:
+  Si otro usuario ha subido cambios a una rama remota diferente y necesitas esos cambios en tu rama actual, puedes traer esos cambios:
+
+```bash
+  git pull origin nombre-de-otra-rama
+```
+
 ## Documentacion Extra de Digital Ocean
 
 [`https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide`](`https://www.digitalocean.com/community/cheatsheets/how-to-use-git-a-reference-guide`)
